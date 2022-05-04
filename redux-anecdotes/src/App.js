@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
       <h2>Anecdotes</h2>
-      {anecdotes.map(anecdote => (
+      {anecdotes?.map(anecdote => (
         <Anecdotes anecdote={anecdote} />
       ))}
       <h2>create new</h2>
